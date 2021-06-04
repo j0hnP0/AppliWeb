@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-size: 14/1.4em;
+    font-family: georgia,palatino,'book antiqua','palatino linotype',serif;
+    }
+
+.tm-header{
+    display: block;
+    padding: 20px;
+}
+
+
+.tm-nav{
+   max-width: 90%;
+   /* border: 2px solid #3a382e; */
+   display: block;
+   margin: 30px auto 5px auto;
+}
+
+.tm-nav div
+{
+    display: table;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.tm-nav div ul li{
+    display:inline-block;  
+   
+}
+
+
+.tm-nav div ul li a{
+    font-size: 1.8max;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: none;
+    color: rgb(157,187,223);
+    line-height: 30px;
+    text-align: right;
+    padding: 15px
+}
+.tm-nav div ul li a:hover{
+    
+    color: rgb(46,55,65);
+}
+
+
+
+.tm-slidertext{
+ position: absolute; 
+   top: 30%; 
+  left: 50%;     
+    color: #fff;
+}
+
+
+/* room */
+
+.tm-rooms a p:hover{
+    color: rgb(46,55,65);
+
+
+}
+
+
+
+/* services */
+
+.tm-service{
+    max-width: 30%;
+    width: 30%;
+    margin: 1.5% 12% 1.5% 10%;  
+}
+
+.tm-servicesection{
+    display: flex;
+}
+
+.tm-serimage{
+    display: inline-block;
+    max-width: 20%;
+    width: 10%;
+    height: auto;
+padding-bottom: 10%;
+
+
+}
+
+.tm-service div{
+    display: inline-block;
+
+    max-width: 75%;
+    padding: 5%;
+}
+
+.tm-service p{
+    font-size: 1.5vmax;
+    
+}
+.tm-service .b{
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+
+/* review */
+
+
+
+.tm-review{
+    padding-bottom: 5%;
+    
+}
+
+.tm-review::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+.tm-revcon{
+    float: left;
+    padding-left: 5%;
+    max-width: 65%;
+}
+
+.tm-revcon .b{
+    padding: 3% 0 3% 5%;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.tm-revcon p{
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.tm-rev{
+    padding: 3% 0 0% 5%;
+   max-width: 70%;
+ 
+}
+
+
+
+
+.tm-stars{
+ display: block;
+    padding-left: 5%;
+}
+.tm-stars img{
+    width: 4%;
+    height: auto;
+}
+
+
+
+/* Make reservation */
+
+.tm-res{
+    background:  rgb(157, 187, 223);
+
+    padding: 2%;
+}
+
+
+.tm-resbutton p{
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+     padding: 2%;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+   
+}
+.tm-resbutton a{
+     text-decoration: none;
+}
+
+.tm-resbutton p:hover{
+    color: rgb(46,55,65);
+    background: #fff;
+}
+
+
+
+/* footer */
+
+.tm-footer{
+    display: block;
+    padding: 20px;
+    position: relative;
+
+}
+
+
+
+.tm-us p, .tm-address p{
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+.tm-media{
+   display: inline;
+    margin: 0 0 0 59%;
+
+}
+
+
+/* Explore page */
+
+.tm-main{
+      background: rgb(157, 187, 223);
+      width: 800;
+     
+        display: table;
+        margin: 0 auto;
+        font-size: 20px/1.4em;
+        padding: 2%;
+        color: #fff;
+        font-style:normal;
+        letter-spacing:0.2em;
+        text-align: center;
+        font-family: georgia,palatino,'book antiqua','palatino linotype',serif;
+        font-size: 20px;
+
+}
+
+
+/* Explore sections */
+
+
+
+.tm-exp1::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tm-trans p{
+    font-size: 1.8vw;
+
+}
+.tm-trans div{
+    display: inline-table;
+    width: 40%;
+    max-width: 40%;
+    margin: 2%;
+}
+
+.tm-trans div .bold{
+    color: rgb(157, 187, 223);
+
+}
+
+
+.tm-room1:hover .tm-trans{
+ 
+    top:30%;
+   
+    transition: top 1s, opacity 1s, height 1s;
+       opacity: 1;
+     height: 50%;
+    z-index: 1;
+}
+
+
+
+/* booking */
+
+.tm-booking
+{
+     /* background: #353535; */
+     position: relative;
+}
+.tm-form1, .tm-form2{
+   padding: 2% 5%;
+}
+
+ div.vertical-line{
+      width: 0.15%; 
+      color: rgb(157, 187, 223);
+      height: 90%; 
+      position: absolute;
+         top: 6%;
+    left: 50%;
+    }
+
+.tm-form1{
+    
+
+    /*
+    max-width: 39.5%;
+    width: 39.5%;
+   
+*/
+    max-width: 40%;
+    width: 40%;
+}
+
+.tm-form2{
+    /* float:right; */
+    /*
+    max-width: 39.5%;
+    width: 39.5%;
+*/
+    max-width: 40%;
+    width: 40%;
+}
+
+input, select, textarea,
+input::-webkit-input-placeholder {
+    font-size: 2vw;
+}
+
+input, select, textarea{
+    color: rgb(157, 187, 223);
+}
+
+input::-webkit-input-placeholder{
+    color: rgb(157, 187, 223);
+}
+
+textarea::-webkit-input-placeholder{
+    color: rgb(157, 187, 223);
+}
+
+
+label{
+     font-size: 2vw;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.tm-booking::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+input[type=text]:nth-child(1),input[type=email],textarea{
+    display: block;
+    margin: 5%;
+    /* padding: 1% 3%; */
+    width: 80%;
+}
+
+
+#rooms{
+    display: inline-block;
+    margin: 5%;
+    padding: 1% 3%;
+    width: 55%;
+}
+
+#inlinelable{
+    display: inline-block;
+    margin: 5%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tm-imgslider{
+    position: relative;
+}
+
+.left, .right{
+    position: absolute;
+    width: 1.5%;
+    max-width: 1.5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+     opacity:0;
+   
+}
+
+
+
+
+
+
+
+
+
+.vap {
+    font-family: georgia;
+    line-height: 1.3em;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    color: rgb(46,55,65);
+}
+
+.locationsaisonniere {
+    font-style:italic;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'times new roman',times,serif;
+    font-style: italic;
+    color: rgb(46,55,65);
+
+   
+
+}
+
+.nouscontacter {
+    letter-spacing:0.2em;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 20px/1.4em;
+    font-family: palatino;
+    font-style: normal;
+    
+
+
+
+}
+
+.bienvenue {
+    background: rgb(157, 187, 223);
+    padding: 180;
+    color: #fff;
+    letter-spacing:0.1em;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.font {
+    font-style: normal;
+}
+   
+.contenu {
+    font-style: normal;
+    line-height: 1.6em;
+    text-align: center;
+    font-size: 15px/1.4em;;
+    font-family: 'times new roman',times,serif;
+
+}
+    
+.contacteznous {
+    font-style: normal;
+    line-height: 1.6em;
+    text-align: center;
+    font-size: 17px/1.4em;;
+    font-family: georgia,palatino,'book antiqua','palatino linotype',serif;
+
+} 
+
+.form {
+    text-align: center;
+    font-style: normal;
+    color: black;
+    
+}
+
+.envoyer {
+    text-align: center;    
+    width: 200px;  
+    
+
+   
+
+
+   
+}
+
+.noir {
+    color: black;
+}
+
+.dot {
+    color: white;
+
+}
+
+.map {
+    text-align: justify;
+
+    
+}
+
+.photo {
+
+position: absolute;
+      top: 1475px;
+      left: 800px;
+
+
+}
+
+
+.center{
+    text-align: center;
+
+}
+
+.contact {
+    width: 20%;
+    margin: 8% auto;
+}
+
+
+
